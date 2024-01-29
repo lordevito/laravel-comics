@@ -13,7 +13,13 @@ h1,h2,h3,h4,h5,h6{
     max-width: 1280px;
     margin: 0 auto;
 }
-.container::after {
+
+.small-conatiner{
+    max-width: 1020px;
+    margin: 0 auto;
+}
+
+.container::after, .small-containeer::after {
     clear: both;
     content: '';
     display: table;
